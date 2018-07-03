@@ -1,0 +1,16 @@
+{    
+    "EventID" : "592ab58e-7e84-11e8-adc0-fa7ae01bbebc",
+    "EventName" : "Selenium Conference",
+    "Description" : "New Features on Selenium",
+    "TechnologyStack" : "Selenium,Java,Docker,Jenkins,Reports",
+    "TeamEvent" : "Yes",
+    "MaxTeamCount" : "20",
+    "MinTeamCount" : "10",
+    "TotalTeamCount" : "20",
+    "StartDate" : "2018-07-02",
+    "EndDate" : "2018-07-04",
+    "JudgingStartDate" : "2018-07-09",
+    "JudgingEndDate" : "2018-07-09",
+    "ResultDate" : "2018-07-11",
+    "EventImage" : ""
+}
