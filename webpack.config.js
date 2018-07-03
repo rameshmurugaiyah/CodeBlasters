@@ -14,7 +14,7 @@ var config = {
     },
     devServer:{
         inline: true,
-        port:8088,
+        port:8080,
         proxy:{
 
         },
@@ -30,7 +30,8 @@ var config = {
                 ],
                 loader : 'babel-loader',
                 query:{
-                    presets:["react","stage-3"]
+                    plugins:["transform-class-properties","transform-decorators-legacy"],
+                    presets:["es2015","react","stage-3"]
                 }
             }
         ],
