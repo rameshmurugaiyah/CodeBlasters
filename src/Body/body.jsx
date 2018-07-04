@@ -6,7 +6,7 @@ import SideBody from './SideDetails/SideBody.jsx';
 class body extends Component {
 
     state = {
-        sideMenuIndex : 0
+        sideMenuIndex : 3
     }
     
     _setSideMenu(index){

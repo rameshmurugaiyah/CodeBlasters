@@ -2,7 +2,7 @@ import React from 'react';
 import {Col} from 'react-bootstrap';
 import EventBody from './Events/EventBody.jsx'
 import LeaderBody from './LeaderBoard/LeaderBody.jsx';
-import ManageTab from './ManageEvents/ManageTabs.jsx'
+import ManageBody from './ManageEvents/ManageBody.jsx'
 
 class SideBody extends React.Component {
 
@@ -13,7 +13,7 @@ class SideBody extends React.Component {
             case 1 :
                 return <LeaderBody/>
             case 3 :
-                return <ManageTab/>
+                return <ManageBody/>
         }
         return null;
     }

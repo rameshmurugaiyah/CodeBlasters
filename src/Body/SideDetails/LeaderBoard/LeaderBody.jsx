@@ -12,14 +12,14 @@ class LeaderBody extends React.Component {
                         <DropdownButton
                             componentClass={InputGroup.Button}
                             id="input-dropdown-addon"
-                            title="Filter By">
+                            title="Filter By" bsSize="small">
                             <MenuItem key="1">Date</MenuItem>
                             <MenuItem key="2">Name</MenuItem>
                             <MenuItem key="3">Month</MenuItem>
                             <MenuItem key="4">Year</MenuItem>
                             <MenuItem key="5">Organization</MenuItem>
                         </DropdownButton>
-                        <FormControl type="text" />
+                        <FormControl type="text"  bsSize="small"/>
                     </InputGroup>
                 </FormGroup>
                 <Row>

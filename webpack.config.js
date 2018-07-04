@@ -30,7 +30,7 @@ var config = {
                 ],
                 loader : 'babel-loader',
                 query:{
-                    plugins:["transform-class-properties","transform-decorators-legacy"],
+                    plugins:["transform-decorators-legacy","transform-class-properties"],
                     presets:["es2015","react","stage-3"]
                 }
             }

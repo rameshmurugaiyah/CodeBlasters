@@ -1,9 +1,12 @@
 import React from 'react';
 import {Modal, Button, FormGroup, FormControl} from 'react-bootstrap';
+import { observer, inject } from 'mobx-react';
 
+@inject('loginStore') @observer
 class Login extends React.Component {
 
     render(){
+        console.log(this.props.loginStore);
         return (
             <Modal show={this.props.showLoginModal} onHide= {() => { this.props._setLoginModal(false); }}>
                 <Modal.Header closeButton>
